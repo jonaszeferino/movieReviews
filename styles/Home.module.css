@@ -1,0 +1,11 @@
+
+.title {
+  color: #ffffff;
+   background-image: url('/images/fundo.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-shadow: #ffffff;
+    
+}
