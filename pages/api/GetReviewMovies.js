@@ -5,10 +5,8 @@ export default async function handler(req, res) {
   switch (req.method) {
     case "GET":
       const body = res.body;
-      const getMongo = collection.findOne(body);
-      console.log(getMongo);
-      console.log(body);
-      res.json({
+      const getMongo = collection.findOne(body | null);
+        res.json({
         status: 200,
         data: getMongo,
       });
@@ -18,3 +16,5 @@ export default async function handler(req, res) {
       break;
   }
 }
+
+//update gitTeste
