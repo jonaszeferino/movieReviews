@@ -5,7 +5,7 @@ export default async function handler(req, res) {
   switch (req.method) {
     case "GET":
       const body = res.body;
-      const getMongo = collection.findOne(body | null);
+      const getMongo = await collection.findOne(body | null);
         res.json({
         status: 200,
         data: getMongo,
