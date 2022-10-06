@@ -4,11 +4,7 @@ export default async function handler(req, res) {
 
   switch (req.method) {
     case "POST":
-      const body = req.body;
-      // const exists = await collection.findOne()// buscar no mongo
-      // if (exists === true){
-      //   res.json
-      // }
+      const body = JSON.parse(req.body);
       const inPutMongo = await collection.insertOne(body); // iserir azar
       res.json({
         status: 200,

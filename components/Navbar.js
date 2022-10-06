@@ -10,17 +10,17 @@ export default function navbar() {
         </Link>
       </li>
       <li>
-        <Link href="/products">
+        <Link href="/movieReviews">
           <a>Cinema Reviews</a>
         </Link>
       </li>
       <li>
-        <Link href="/products/times">
+        <Link href="/movieReviews">
           <a>Cinema Ratings</a>
         </Link>
       </li>
       <li>
-        <Link href="/todos">
+        <Link href="/tvshowsReviews">
           <a>Series Reviews</a>
         </Link>
       </li>

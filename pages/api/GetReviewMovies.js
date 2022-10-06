@@ -1,7 +1,7 @@
 import client from "../../mongoConnection";
 export default async function handler(req, res) {
   const collection = client.db("cinemaReviews").collection("movieViews");
-
+//retorna o último registro salvo na collection
   switch (req.method) {
     case "GET":
       const body = res.body;
