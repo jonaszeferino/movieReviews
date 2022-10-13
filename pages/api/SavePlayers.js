@@ -1,6 +1,6 @@
 import client from "../../mongoConnection";
 export default async function handler(req, res) {
-  const collection = client.db("cinemaReviews").collection("movieViews");
+  const collection = client.db("nbaPlayer").collection("players");
 
   switch (req.method) {
     case "POST":

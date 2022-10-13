@@ -1,8 +1,9 @@
 .navbar {
  display: flex;
- background-color: black;
+ background-color: #092b45;
  padding: 20px 10px;
-
+ 
+ 
 }
 
 .navbar a {
@@ -13,5 +14,5 @@
 }
 
 .navbar a:hover {
- color: grey;
+ color: rgb(111, 80, 179);
 }

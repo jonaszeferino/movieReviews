@@ -10,31 +10,16 @@ export default function navbar() {
         </Link>
       </li>
       <li>
-        <Link href="/movieReviews">
-          <a>Cinema Reviews</a>
+        <Link href="/myPlayers">
+          <a>Meus Jogadores</a>
         </Link>
       </li>
       <li>
-        <Link href="/movieReviews">
-          <a>Cinema Ratings</a>
+        <Link href="/addPlayers">
+          <a>Adicionar Jogadores</a>
         </Link>
-      </li>
-      <li>
-        <Link href="/tvshowsReviews">
-          <a>Series Reviews</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/about">
-          <a>Series Ratings</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/contact">
-          <a>Contato</a>
-        </Link>
-      </li>
-    </ul>
+      </li>   
+  </ul>
   );
 }
 

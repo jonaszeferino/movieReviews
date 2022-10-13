@@ -1,11 +1,69 @@
-
 .title {
   color: #ffffff;
-   background-image: url('/images/fundo.jpg');
+  /*background-image: url('/images/fundo.jpg');*/
+  background-color: #246292;
   background-size: cover;
   background-position: center;
   padding: 20px;
   margin-bottom: 20px;
   text-shadow: #ffffff;
-    
+  text-align: center;
+  border-radius: 6px;
+}
+
+.input {
+  text-align: center;
+  border-radius: 4px;
+  border-style: solid;
+  background-color: #246292;
+  width: 300px;
+  padding: 10px;
+  margin-inline: 2%;
+  margin-bottom: 1%;
+  border-color: #1480b6;
+  border-width: 2px;
+  color: #ffffff;
+  font-size: 12px;
+}
+.css-input:focus {
+  outline: none;
+}
+
+.bt {
+  font-size: 15px;
+  font-family: Arial;
+  width: 140px;
+  height: 50px;
+  border-width: 1px;
+  color: #fff;
+  border-color: #337bc4;
+  font-weight: bold;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 3px 4px 0px 0px #1480b6;
+  text-shadow: 0px 1px 0px #528ecc;
+  background: linear-gradient(#79bbff, #378de5);
+  margin: 10px;
+  /*text-align: center;*/
+}
+
+.bt:hover {
+  background: linear-gradient(#1480b6, #79bbff);
+}
+.label {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.form{
+  background-color: #d2dce6;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  text-align: center;
+  border-radius: 6px;
+
 }
